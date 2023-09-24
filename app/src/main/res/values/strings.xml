@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LearnKotlinFlow</string>
+    <string name="kotlin_flows">Kotlin Flows!</string>
 </resources>

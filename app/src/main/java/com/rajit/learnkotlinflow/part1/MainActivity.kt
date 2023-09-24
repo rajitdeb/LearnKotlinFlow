@@ -1,9 +1,11 @@
-package com.rajit.learnkotlinflow
+package com.rajit.learnkotlinflow.part1
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.rajit.learnkotlinflow.databinding.ActivityMainBinding
+import com.rajit.learnkotlinflow.part2.Part2Activity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
@@ -41,11 +43,15 @@ class MainActivity : AppCompatActivity() {
 
         producer()
         consumer()
-        
+
+        binding.part2Btn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Part2Activity::class.java))
+        }
+
     }
 
     /** Channels - This function produces data */
-    fun producer() {
+    private fun producer() {
         CoroutineScope(Dispatchers.IO).launch {
             channel.send(1)
             channel.send(2)
@@ -53,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /** Channels - This function consumes dat, produced/supplied by the producer through Channels */
-    fun consumer() {
+    private fun consumer() {
         CoroutineScope(Dispatchers.Main).launch {
 
             Log.d(TAG, "consumer: ${channel.receive()}") // for 1
