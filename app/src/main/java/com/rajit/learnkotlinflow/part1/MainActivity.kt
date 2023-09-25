@@ -6,6 +6,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.rajit.learnkotlinflow.databinding.ActivityMainBinding
 import com.rajit.learnkotlinflow.part2.Part2Activity
+import com.rajit.learnkotlinflow.part3.Part3Activity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
@@ -46,6 +47,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.part2Btn.setOnClickListener {
             startActivity(Intent(this@MainActivity, Part2Activity::class.java))
+        }
+
+        binding.part3Btn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Part3Activity::class.java))
         }
 
     }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LearnKotlinFlow</string>
     <string name="kotlin_flows">Kotlin Flows!</string>
+    <string name="part_3_terminal_map_filter_buffer_operators">Part 3: Terminal, Map, Filter Buffer Operators</string>
 </resources>
