@@ -2,4 +2,5 @@
     <string name="app_name">LearnKotlinFlow</string>
     <string name="kotlin_flows">Kotlin Flows!</string>
     <string name="part_3_terminal_map_filter_buffer_operators">Part 3: Terminal, Map, Filter Buffer Operators</string>
+    <string name="part4_btn_string">Part 4: Context Preservation and Exception Handling</string>
 </resources>
