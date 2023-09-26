@@ -7,4 +7,5 @@ A repository that focuses on the implementation of Kotlin Flow in Android
   <li>Part 2: Understanding the working of Kotlin Flows Builders, Cold Streams and Cancellation of Flows</li>
   <li>Part 3: Understanding the concept of Map, Filter and Buffer operators in Kotlin Flow</li>
   <li>Part 4: Understanding the concept of Context Preservation, flowOn, Exception Handling and catch</li>
+  <li>Part 5: Understanding the concept of SharedFlow</li>
 </ul>
