@@ -37,4 +37,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part2Btn" />
 
+    <Button
+        android:id="@+id/part4Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/part4_btn_string"
+        app:layout_constraintEnd_toEndOf="@+id/part3Btn"
+        app:layout_constraintStart_toStartOf="@+id/part3Btn"
+        app:layout_constraintTop_toBottomOf="@+id/part3Btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
