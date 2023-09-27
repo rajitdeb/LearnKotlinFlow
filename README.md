@@ -8,4 +8,5 @@ A repository that focuses on the implementation of Kotlin Flow in Android
   <li>Part 3: Understanding the concept of Map, Filter and Buffer operators in Kotlin Flow</li>
   <li>Part 4: Understanding the concept of Context Preservation, flowOn, Exception Handling and catch</li>
   <li>Part 5: Understanding the concept of SharedFlow</li>
+  <li>Part 6: Understanding the concept of StateFlow and how is it different from LiveData</li>
 </ul>

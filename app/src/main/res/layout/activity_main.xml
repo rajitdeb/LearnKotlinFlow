@@ -59,4 +59,14 @@
         app:layout_constraintStart_toStartOf="@+id/part4Btn"
         app:layout_constraintTop_toBottomOf="@+id/part4Btn" />
 
+    <Button
+        android:id="@+id/part6Btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/part6_btn_string"
+        app:layout_constraintEnd_toEndOf="@+id/part5Btn"
+        app:layout_constraintStart_toStartOf="@+id/part5Btn"
+        app:layout_constraintTop_toBottomOf="@+id/part5Btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,5 @@
     <string name="part_3_terminal_map_filter_buffer_operators">Part 3: Terminal, Map, Filter Buffer Operators</string>
     <string name="part4_btn_string">Part 4: Context Preservation and Exception Handling</string>
     <string name="part5_btn_string">Part 5: Kotlin Shared Flow</string>
+    <string name="part6_btn_string">Part 6: Kotlin State Flow</string>
 </resources>

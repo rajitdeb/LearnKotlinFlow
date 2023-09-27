@@ -9,6 +9,7 @@ import com.rajit.learnkotlinflow.part2.Part2Activity
 import com.rajit.learnkotlinflow.part3.Part3Activity
 import com.rajit.learnkotlinflow.part4.Part4Activity
 import com.rajit.learnkotlinflow.part5.Part5Activity
+import com.rajit.learnkotlinflow.part6.Part6Activity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
@@ -61,6 +62,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.part5Btn.setOnClickListener {
             startActivity(Intent(this@MainActivity, Part5Activity::class.java))
+        }
+
+        binding.part6Btn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Part6Activity::class.java))
         }
 
     }
